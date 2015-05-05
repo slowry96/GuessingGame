@@ -48,6 +48,11 @@ public class GuessingGame
            {
                System.out.println("Sorry. you didn't guess the correct number.");
                System.out.println("Try again? Enter Y or N: ");
+               if(input.next() == "Y")
+               {
+                   answer = rand.nextInt(10);
+                   
+               }
                
            }
            
